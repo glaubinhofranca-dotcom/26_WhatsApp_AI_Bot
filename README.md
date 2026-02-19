@@ -34,27 +34,26 @@ By utilizing Twilio's Sandbox and Ngrok for secure tunneling, this Proof of Conc
 
 ### 2. Environment Setup
 Clone the repository and install the dependencies:
-    ```bash
+    
     git clone https://github.com/glaubinhofranca-dotcom/26_WhatsApp_AI_Bot.git
-    ```
-    cd 26_WhatsApp_AI_Bot
-    ```
-    pip install -r requirements.txt
-    ```
-Create a .env file in the root directory and add your OpenAI key:
-    ```bash
-    OPENAI_API_KEY=sk-your_actual_key_here
-    ```
 
+    cd 26_WhatsApp_AI_Bot
+    
+    pip install -r requirements.txt
+    
+Create a .env file in the root directory and add your OpenAI key:
+    
+    OPENAI_API_KEY=sk-your_actual_key_here
+    
 ### 3. Start the Services
 Run the FastAPI server:
-    ```bash
+
     python bot_api.py
-    ```
+    
 In a new terminal, start the Ngrok tunnel:
-    ```bash
+
     ngrok http 8000
-    ```
+    
 
 ### 4. Twilio Configuration
 Go to your Twilio Console -> Messaging -> Try it out -> Send a WhatsApp message.
