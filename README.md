@@ -5,7 +5,7 @@ This project transforms a standard WhatsApp number into a **Context-Aware AI Ass
 
 By utilizing Twilio's Sandbox and Ngrok for secure tunneling, this Proof of Concept (PoC) demonstrates a complete end-to-end integration of Generative AI into a massive enterprise communication channel.
 
-26_WhatsApp_AI_Bot/chat_bot.png
+![alt text](chat_bot.png)
 
 ## 🏗️ Architecture & Data Flow
 1. **User** sends a message on WhatsApp.
