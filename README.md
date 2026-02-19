@@ -36,7 +36,9 @@ By utilizing Twilio's Sandbox and Ngrok for secure tunneling, this Proof of Conc
 Clone the repository and install the dependencies:
     ```bash
     git clone https://github.com/glaubinhofranca-dotcom/26_WhatsApp_AI_Bot.git
+    ```
     cd 26_WhatsApp_AI_Bot
+    ```
     pip install -r requirements.txt
     ```
 Create a .env file in the root directory and add your OpenAI key:
